@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.error {
+  color: #360e06a7;
+}
+
+body {
+  background-color: #658864;
+  background-image: url("images/blu-stripes.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  color: #dddddd;
+  padding: 50px;
+}
+
+form {
+  margin-top: 1.3em;
+  padding: 1.2em;
+  background-color: #b7b78a;
+  border: 2px solid #588157;
+  border-radius: 1.2em;
+  box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-header {
+  margin-left: 2em;
+}
+
+.form-header ul {
+  margin-top: 0.2em;
+  display: inline-block;
+}
+.form-label {
+  margin-top: 0.5em;
+}
+
+.form-input {
+  margin-top: 0.5em;
+  border: none;
+}
+.messages {
+  display: flex;
+  flex-direction: row;
+}
+
+form input,
+textarea {
+  background-color: #eeeeee;
+}
+
+form button {
+  background-color: #8bf5fa;
+  padding: 0.2em 0.5em;
+  border-radius: 0.6em;
+}
