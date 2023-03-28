@@ -2,6 +2,7 @@
     <div class="form-header">
         <h2>PHP Form Validation</h2>
         <p><span class="error">* required field</span></p>
+        <!-- Display All Errors in bullet-points -->
         <?php if ($errors) : ?>
             <div class="error">
                 <ul>
